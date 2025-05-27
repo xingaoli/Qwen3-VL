@@ -11,6 +11,8 @@ wheels/
 
 # ckpt
 ckpt/
+ckpt_my/
 
 # idea
 .idea
+.cache

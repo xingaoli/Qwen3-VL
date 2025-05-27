@@ -26,12 +26,18 @@ VIDEOCHATGPT = {
     "data_path": "PATH_TO_VIDEOCHATGPT_DATA",
 }
 
+TEST_3SAMPLE = {
+    "annotation_path": "/home/xingao/code/Qwen2.5-VL/qwen-vl-finetune/demo/single_images.json",
+    "data_path": "/home/xingao/code/Qwen2.5-VL/qwen-vl-finetune",
+}
+
 data_dict = {
     "cambrian_737k": CAMBRIAN_737K,
     "cambrian_737k_pack": CAMBRIAN_737K_PACK,
     "mp_doc": MP_DOC,
     "clevr_mc": CLEVR_MC,
     "videochatgpt": VIDEOCHATGPT,
+    "test_3sample": TEST_3SAMPLE
 }
 
 
@@ -57,7 +63,7 @@ def data_list(dataset_names):
 
 
 if __name__ == "__main__":
-    dataset_names = ["cambrian_737k"]
+    dataset_names = ["test_3sample"]
     configs = data_list(dataset_names)
     for config in configs:
         print(config)
