@@ -16,3 +16,5 @@ ckpt_my/
 # idea
 .idea
 .cache
+
+qwen-vl-finetune/distributed
