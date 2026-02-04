@@ -18,3 +18,5 @@ ckpt_my/
 .cache
 
 qwen-vl-finetune/distributed
+
+cookbooks/
